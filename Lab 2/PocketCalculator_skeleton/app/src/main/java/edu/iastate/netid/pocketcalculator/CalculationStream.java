@@ -196,4 +196,5 @@ public class CalculationStream {
     }
 
     //TODO - add other calculator logic methods you want to use in this calculator model class
+
 }

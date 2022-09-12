@@ -27,8 +27,9 @@
             android:id="@+id/Clear_Button"
             android:layout_width="320dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="Clear" />
+            android:onClick="onClear_Clicked"
+            android:text="Clear"
+            android:textSize="30sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,98 +37,114 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/One_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="1" />
+            android:onClick="onDigit_1Clicked"
+            android:text="1"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/Two_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="2" />
+            android:onClick="onDigit_2Clicked"
+            android:text="2"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/Three_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="3" />
+            android:onClick="onDigit_3Clicked"
+            android:text="3"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/multiply_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="*" />
+            android:onClick="onOperator_MulClicked"
+            android:text="*"
+            android:textSize="30sp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/four_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="4" />
+            android:onClick="onDigit_4Clicked"
+            android:text="4"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/Five_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="5" />
+            android:onClick="onDigit_5Clicked"
+            android:text="5"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/six_Button"
-            android:layout_width="80dp"
+            android:layout_width="78dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="6" />
+            android:onClick="onDigit_6Clicked"
+            android:text="6"
+            android:textSize="30sp" />
+
         <Button
             android:id="@+id/minus_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="-" />
+            android:onClick="onOperator_SubClicked"
+            android:text="-"
+            android:textSize="30sp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/seven_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="7" />
+            android:onClick="onDigit_7Clicked"
+            android:text="7"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/eight_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="8" />
+            android:onClick="onDigit_8Clicked"
+            android:text="8"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/nine_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="9" />
+            android:onClick="onDigit_9Clicked"
+            android:text="9"
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/add_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:textSize="30sp"
-            android:text="+" />
+            android:onClick="onOperator_AddClicked"
+            android:text="+"
+            android:textSize="30sp" />
     </LinearLayout>
 
 
@@ -136,10 +153,12 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/zero_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:onClick="onDigit_0Clicked"
             android:text="0"
             android:textSize="30sp" />
 
@@ -147,6 +166,7 @@
             android:id="@+id/dot_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:onClick="onDigit_dotClicked"
             android:text="."
             android:textSize="30sp" />
 
@@ -154,6 +174,7 @@
             android:id="@+id/equal_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:onClick="onEqualClicked"
             android:text="="
             android:textSize="30sp" />
 
@@ -161,6 +182,7 @@
             android:id="@+id/divide_Button"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:onClick="onOperator_DivideClicked"
             android:text="/"
             android:textSize="30sp" />
     </LinearLayout>
