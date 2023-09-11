@@ -1,1 +1,1 @@
-# CprE388Lab
+# Andriod Studio App Small Project
