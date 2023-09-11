@@ -1,1 +1,1 @@
-# CprE388Lab
+# Android Studio Small Project
